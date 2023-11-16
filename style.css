@@ -32,7 +32,7 @@ ul {
     align-items: center;
     position: absolute;
     top: 258px;
-    left: 339px;
+    left: 30%;
     z-index: 20;
 }
 .modal-text button {
