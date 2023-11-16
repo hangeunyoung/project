@@ -30,9 +30,9 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
     top: 258px;
-    left: 30%;
+    left: 339px;
     z-index: 20;
 }
 .modal-text button {
