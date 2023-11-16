@@ -15,7 +15,8 @@
 
  - 팝업창 구현(JavaScript)
 
- - 프로젝트 경로 및 파일 포맷 준수
- - 
+ - 프로젝트 경로 및 파일 포맷 준수 -
+   
 활용기술: HTML, CSS , JavaScript, VSCODE, GitHUB
-URL: 
+
+URL: https://hangeunyoung.github.io/project/
