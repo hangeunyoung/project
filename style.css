@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+.modal {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.modal.close {
+    display: none;
+}
+.modal-text {
+    width: 521px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 258px;
+    left: 339px;
+    z-index: 20;
+}
+.modal-text button {
+    border: none;
+}
+.btn-close {
+    position: absolute;
+    top: 22.67px;
+    right: 22.67px;
+}
+.modal-text strong {
+    width: 299px;
+    height: 92px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 46.34px;
+    margin-bottom: 51px;
+    text-align: center;
+}
+.modal-text form {
+    display: flex;
+}
+.btn-email1 {
+    width: 311px;
+    height: 43px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.btn-submit1 {
+    width: 80px;
+    height: 43px;
+    padding: 5.5px 13.5px;
+    background-color: #999999;
+    color: white;
+    border: none;
+}
+
+.homepage {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 1200px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    position: relative;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu>li {
+    font-size: 18px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu>li:first-child {
+    padding-right: 51px;
+}
+
+.nav-menu>li a:hover {
+    color: #FF5758;
+}
+
+.nav-menu>li ul {
+    font-size: 16px;
+    position: absolute;
+    top: 61px;
+    padding: 16px;
+    background-color: white;
+    display: none;
+    z-index: 10;
+}
+
+.nav-menu>li ul li {
+    padding-bottom: 10px;
+}
+
+.nav-menu>li ul li:last-child {
+    padding: 0;
+}
+
+.nav-menu>li:hover .nav-menu-depth2 {
+    display: block;
+}
+
+.nav-icon img {
+    padding-right: 20px;
+}
+
+.main-banner {
+    width: 1200px;
+    height: 450px;
+}
+
+.main-banner-box {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.main-banner-text {
+    position: absolute;
+    color: white;
+    width: 459px;
+    height: 182px;
+    top: 140px;
+    left: 60px;
+}
+
+.main-banner-box.show {
+    opacity: 1;
+}
+
+.main-banner-text strong {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 69.5px;
+    margin-bottom: 16px;
+}
+
+.main-banner-text p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31.86px;
+}
+
+.main-banner-text strong.black,
+.main-banner-text p.black {
+    color: black;
+}
+
+.main-banner-box img {
+    display: block;
+    width: 1200;
+    height: 450px;
+
+}
+
+.main-content {
+    width: 1200px;
+    height: 404px;
+    padding: 40px 20px 0 20px;
+}
+
+.main-content h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 46.34px;
+    padding-bottom: 15px;
+}
+
+.main-content-box {
+    display: flex;
+}
+
+.main-content-item {
+    width: 275px;
+    height: 242px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.main-content-item img:first-child {
+    width: 273.01px;
+    height: 155px;
+    display: block;
+}
+
+.main-content-item strong {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26.06px;
+    padding-top: 10.5px;
+}
+
+.main-content-item .line {
+    width: 60px;
+    padding: 10px 0 10px;
+    margin: 0 auto;
+}
+
+.main-content-item p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20.27px;
+}
+footer {
+    width: 1200px;
+    height: 115px;
+    background-color: #535353;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-address {
+    width: 718px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20.27px;
+    color: white;
+    padding: 35px 0 30px 20px;
+}
+footer .footer-address p {
+    padding-bottom: 10px;
+}
+footer form {
+    display: flex;
+    padding: 35px 20px 50px 0;
+}
+.btn-email2 {
+    width: 217px;
+    height: 29px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+.btn-submit2 {
+    width: 75px;
+    height: 30px;
+    padding: 5.5px 13.5px;
+    background-color: #FF6263;
+    color: white;
+    border: none;
+}
